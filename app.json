@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Pocket Budget",
+    "slug": "pocket-budget",
+    "web": {
+      "output": "static",
+      "bundler": "metro"
+    },
+    "experiments": {
+      "baseUrl": "/pocket-budget"
+    }
+  }
+}
