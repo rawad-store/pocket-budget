@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      # هذا الأمر يقوم ببناء التطبيق ووضعه في مجلد dist-github-pages
+      # بناء التطبيق باستخدام الأمر المخصص من ملف package.json الخاص بك
       - name: Build static site
         run: pnpm run export:github-pages
 
@@ -44,7 +44,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # نرفع المجلد الذي أنشأه أمر البناء
           path: dist-github-pages
 
   deploy:
