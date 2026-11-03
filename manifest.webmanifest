@@ -1,12 +1,1 @@
-{
-  "name": "Pocket Budget — الميزانية الشخصية",
-  "short_name": "Pocket Budget",
-  "lang": "ar",
-  "dir": "rtl",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#f3f6f3",
-  "theme_color": "#10251f",
-  "description": "إدارة الميزانية الشخصية والدخل والمصروفات والادخار"
-}
+{"name":"Pocket Budget | الميزانية الشخصية","short_name":"Pocket Budget","description":"تطبيق عربي لإدارة الميزانية الشخصية والدخل والمصروفات والادخار.","lang":"ar","dir":"rtl","start_url":"./","scope":"./","display":"standalone","background_color":"#f3f6f3","theme_color":"#10251f","icons":[{"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"icons/icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}
